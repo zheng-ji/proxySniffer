@@ -4,7 +4,7 @@
 
 ###  简介
 
-```shell
+```sh
 $ python main.py --help
  _____   _____    _____  __    __ __    __       _____   __   _   _   _____   _____   _____   _____   
 |  _  \ |  _  \  /  _  \ \ \  / / \ \  / /      /  ___/ |  \ | | | | |  ___| |  ___| | ____| |  _  \  
@@ -27,7 +27,8 @@ optional arguments:
 ###  开始扫描
 
 ```shell
-$: ~/ipsnifer$ python main.py --start_ip=111.11.184.51 --end_ip=111.11.185.51 --process_num=4 --thread_num=400 
+$: ~/ipsnifer$ python main.py --start_ip=111.11.184.51 --end_ip=111.11.185.51 \
+    --process_num=4 --thread_num=400 
 
 good http://111.11.184.51:80
 good http://111.11.184.51:81
