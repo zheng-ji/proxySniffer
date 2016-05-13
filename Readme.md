@@ -20,7 +20,7 @@ optional arguments:
 -h, --help            show this help message and exit
 --start_ip [START_IP] 
 --end_ip [END_IP]
---process_num [PROCESS_NUM]
+--process_num [PROCESS_NUM] according to your num of processors
 --thread_num [THREAD_NUM]
 ```
 
