@@ -26,7 +26,7 @@ optional arguments:
 
 ###  开始扫描
 
-```shell
+```sh
 $: ~/ipsnifer$ python main.py --start_ip=111.11.184.51 --end_ip=111.11.185.51 \
     --process_num=4 --thread_num=400 
 
